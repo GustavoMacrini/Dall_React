@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Dall_React/static/css/main.388a3daa.css",
+    "main.js": "/Dall_React/static/js/main.2d0c9089.js",
+    "static/media/Encaixotamento.svg": "/Dall_React/static/media/Encaixotamento.420cbdaecb3284f37740da708fdcc194.svg",
+    "static/media/Fs-Pouch.svg": "/Dall_React/static/media/Fs-Pouch.2472a475f9a1b825017c1a407a11de23.svg",
+    "static/media/Dosadores.svg": "/Dall_React/static/media/Dosadores.8537220962e9da4c883e41b04993cfee.svg",
+    "static/media/Flow-Pack-Vertical.svg": "/Dall_React/static/media/Flow-Pack-Vertical.559c9931adf60ffb68922fd239f6e22b.svg",
+    "static/media/Fs-Pouch-Vacuo.svg": "/Dall_React/static/media/Fs-Pouch-Vacuo.27a45644bed8caecb2c8ff9041c0bb4b.svg",
+    "static/media/Ffs-Pouch.svg": "/Dall_React/static/media/Ffs-Pouch.e6e07dc842a7d9f524c3924d8f1505b2.svg",
+    "static/media/Stand-Up-Pouch.svg": "/Dall_React/static/media/Stand-Up-Pouch.7ad53a0c91082c7aedc7129cf88609f0.svg",
+    "static/media/Spout-Pouch.svg": "/Dall_React/static/media/Spout-Pouch.ba5023485390ebb24c17db8a0fbf1ae3.svg",
+    "static/media/embalagens-demo.svg": "/Dall_React/static/media/embalagens-demo.73859e7a19c55bce651b4e38b33ac694.svg",
+    "static/media/Saco-Pouch.svg": "/Dall_React/static/media/Saco-Pouch.4712f6dc0245f62f116b2ffe30cc3ead.svg",
+    "static/media/Sache.svg": "/Dall_React/static/media/Sache.6209b3fad7e0f98dff875f3e223922db.svg",
+    "static/media/Retortable-Pouch.svg": "/Dall_React/static/media/Retortable-Pouch.49d6b68607043e4c1da23779c9957c6c.svg",
+    "static/media/Pouch-4-Soldas.svg": "/Dall_React/static/media/Pouch-4-Soldas.11a342a866a9514c18fa06d504f5f2e3.svg",
+    "static/media/Box-Pouch.svg": "/Dall_React/static/media/Box-Pouch.1c3860f33eaf4161c7ec23a4d091d70e.svg",
+    "static/media/FilmesLaminados.svg": "/Dall_React/static/media/FilmesLaminados.32b385c8168f00da8c01d76a8095ce1c.svg",
+    "static/media/Almofada.svg": "/Dall_React/static/media/Almofada.aa44ceb009e6e7f01503f11c97840fd2.svg",
+    "static/media/logo.svg": "/Dall_React/static/media/logo.152666cc176548ce4d70053ac2561f87.svg",
+    "static/media/FacasEspeciais.svg": "/Dall_React/static/media/FacasEspeciais.a92928625d1f3d76b4562a62ff97166f.svg",
+    "static/media/revicons.eot": "/Dall_React/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Dall_React/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Dall_React/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Dall_React/index.html",
+    "static/media/menu.svg": "/Dall_React/static/media/menu.01a57a6e2a9336d1b4e342169baa7f33.svg",
+    "static/media/close-menu.svg": "/Dall_React/static/media/close-menu.76eba169c04d837050bc6cc1e69514cd.svg",
+    "main.388a3daa.css.map": "/Dall_React/static/css/main.388a3daa.css.map",
+    "main.2d0c9089.js.map": "/Dall_React/static/js/main.2d0c9089.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.388a3daa.css",
+    "static/js/main.2d0c9089.js"
+  ]
+}
