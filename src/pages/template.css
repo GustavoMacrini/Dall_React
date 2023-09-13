@@ -1,0 +1,275 @@
+/* ----------------------------- Geral -----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+    --primary-color: rgba(160, 16, 26, 1);
+    --primary-color-light: rgba(160, 16, 26, 0.85);
+    --primary-color-light-2: rgba(171, 47, 56, 1);
+    --primary-color-light-3: rgba(174, 65, 72, 1);    
+    --secondary-color: rgba(238, 238, 238, 1);
+    --secondary-color-light: rgba(248, 248, 248, 1);
+    --dark-letter-primary:rgba(0, 0, 0, 1);
+    --dark-letter-secondary: rgba(0, 0, 0, 0.75);
+    --light-letter-primary: rgba(249, 245, 240, 1);
+}
+
+.wrapper{
+    padding: 1.5rem;
+    width: min(96rem, 100%);
+    margin-inline: auto;
+}
+
+body{
+    font-family: 'Signika', sans-serif; 
+}
+
+body h1{
+    font-weight: 700;
+    margin: 0;
+}
+
+body h2{
+    font-weight: 700;
+    margin: 0;
+}
+
+body h3{
+    font-weight: 600;
+    margin: 0;
+}
+
+body p{
+    font-weight: 400;
+    margin: 0;
+}
+
+/* ----------------------------- BOTOES */
+/* + DETALHES */
+.btn-detalhes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-detalhes a{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary-color);
+    padding-top: 0.625rem;
+    padding-bottom: 0.438rem;
+    padding-inline: 1rem;
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 3rem;
+    align-items: center;
+    margin: 0;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+:root .btn-detalhes a:hover{
+    background-color: var(--primary-color);
+    color: white;
+    cursor:pointer;
+}
+
+
+.btn-baixar-arquivo a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 2.5rem;
+    padding-block: 0.5rem;
+    padding-inline: 5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-baixar-arquivo p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.btn-baixar-arquivo svg{
+    fill: #A0101A;
+}
+
+.btn-baixar-arquivo a:hover{
+    background-color: var(--primary-color);
+}
+
+.btn-baixar-arquivo a:hover p,
+.btn-baixar-arquivo:hover svg path{
+    color: white;
+    cursor:pointer;
+    fill: white;
+}
+
+/* ----------------------------- NAVBAR */
+.navbar{
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-close-menu{
+    visibility: hidden;
+}
+
+.nav-link{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#navbar .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------------------- FOOTER ----------------------------------------- */
+
+/* ----------------------------- LINKS - TELAS*/
+#links-telas{
+    background-color: var(--primary-color-light-2);    
+}
+
+#links-telas .links-telas-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#links-telas .link-telas-row1{
+    margin-bottom: 1.5rem;
+}
+
+#links-telas a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--light-letter-primary);
+}
+
+/* ----------------------------- REDES SOCIAIS*/
+#redes .wrapper{
+    padding-block: 0.813rem;
+}
+
+#redes .redes-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#redes .logo img{    
+    width: 3.7rem;
+    height: 1.6rem;
+}
+
+#redes .redes-icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+#redes .redes-icones svg{
+    cursor: pointer;
+}
+
+
+
+
+/* TENTATIVA DE FAZER UM HOVER, MAS O ICONE DO LINKEDIN N TA LEGAL */
+#redes .redes-icones a svg{
+    /* stroke: #17191C; */
+}
+
+/* #redes .redes-icones a svg:hover{
+    stroke: #888;
+} */
+
+/* #redes .redes-icones a svg rect{
+    stroke: none;
+} */
+
+
+
+
+/* COPYRIGHT */
+#copyright .copyright-dall{
+    background-color: var(--primary-color-light-2);
+    color: var(--light-letter-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright .copyright-dall p{
+    font-size: 10px;
+    font-weight: 400;
+    margin-block: 0.5rem;
+}
+
+.whatsapp-link{
+    position: fixed;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #24d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+}
+
+.fa-whatsapp{
+    margin-top: 16px;
+}
+
+/* ---------------- RESPONSIVO */
+
+@media (min-width: 992px){
+    .wrapper{
+        /* width: max(80rem);    */
+        /* width: max(96rem); */
+    }
+
+    .btn-detalhes a{
+        font-size: 14px;
+        padding-inline: 4.25rem;
+        margin-right: 7rem;
+    }
+
+    /* ---------------- FOOTER */
+    #copyright .copyright-dall p{
+        font-size: 12px;
+    }
+
+    .whatsapp-link{
+        bottom: 40px;
+        right: 40px;
+    }
+
+}

@@ -1,0 +1,256 @@
+.btn-detalhes{
+    margin-top: 2rem;
+}
+
+/* ----------------------------- SLIDER INICIAL */
+#slider-inicial{
+    background-color: var(--secondary-color);
+}
+
+#slider-inicial .wrapper{
+    padding-top: 0;
+    padding-inline: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+#slider-inicial .carousel-indicators button{
+    background-color: var(--dark-letter-secondary);
+}
+#slider-inicial .carousel-indicators .active{
+    background-color: var(--dark-letter-primary);
+}
+
+/* ----------------------------- NOSSA HISTORIA */
+#nossa-historia{
+    margin-top: 0.5rem;
+    background: linear-gradient(90deg, #AB2F38 30.99%, #C66D73 99.44%);
+    color: white;    
+}
+
+#nossa-historia .wrapper{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#nossa-historia .info-empresa-titulo h1{
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+#nossa-historia .info-empresa{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#nossa-historia .info-empresa h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#nossa-historia .info-empresa h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#nossa-historia .info-empresa p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* ----------------------------- SLIDER PRODUTOS */
+
+#nossos-produtos{
+    /* background-color: var(--secondary-color); */
+    margin-bottom: 50px;
+}
+
+#nossos-produtos .wrapper{
+    background-color: white;
+    padding-top: 4rem;
+    border-bottom-left-radius: 10px;    
+}
+
+#nossos-produtos .section-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#nossos-produtos .section-title-main{
+    color: var(--primary-color);
+}
+
+#nossos-produtos .product-title{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+#nossos-produtos p{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+#nossos-produtos hr{
+    border-radius: 50px;
+    background: #D9D9D9;
+    margin-block: 2rem;
+}
+
+#line .wrapper{
+    padding-block: 0;
+}
+
+#line .wrapper hr{
+    border-radius: 50px;
+    background: #D9D9D9;
+    margin: 0;
+}
+
+/* ----------------------------- QUEM SOMOS */
+
+#quem-somos{
+    background-color: var(--secondary-color);
+    color: #1E1E1E;
+}
+
+#quem-somos .wrapper{
+    padding-top: 4rem;
+    padding-bottom: 1.75rem;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#quem-somos h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#quem-somos .quem-somos-logo img{
+    width: 132.367px;
+    height: 57px;
+    margin-block: 1rem;
+}
+
+#quem-somos .quem-somos-content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--dark-letter-primary);
+}
+
+#quem-somos .quem-somos-content img{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* --------------------- RESPONSIVO */
+
+@media (min-width: 992px){
+    .btn-detalhes a{
+        padding-inline: 4.25rem;
+        margin-right: 4rem;
+    }
+
+    #nossa-historia .info-empresa-titulo h2{
+        font-size: 40px;
+    }
+
+    #nossa-historia .info-empresa{
+        flex-direction: row;
+        justify-content: center;
+        gap: 7.3rem;
+    }
+
+    #nossa-historia .info-empresa h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    #nossa-historia .info-empresa h2{
+        font-size: 16px;
+    }
+    
+    #nossa-historia .info-empresa p{
+        font-size: 16px;        
+    }
+
+    /* --------------------- PRODUTOS */
+    #produtos{
+        background-image: none;
+        background-color: var(--secondary-color);
+    }
+
+    #produtos .wrapper{
+        box-shadow: none;
+        padding-bottom: 5rem;
+    }
+
+    #produtos .produtos-title h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: var(--dark-letter-primary);
+    }
+
+    #produtos .produtos-subtitle h2{
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--dark-letter-secondary);
+    }
+
+    #produtos .produtos-text{
+        font-size: 24px;    
+        font-weight: 400;
+        color: var(--dark-letter-secondary);                
+    }
+
+    /* --------------------- QUEM SOMOS */
+    #quem-somos{
+        background-color: #fff;
+    }
+
+    #quem-somos .wrapper{
+        background-color: transparent;
+    }
+
+    #quem-somos .quem-somos-title h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--dark-letter-primary);
+    }
+
+    #quem-somos .quem-somos-logo img{
+        width: 194.566px;
+        height: 83.784px;
+        margin-block: 2rem;
+    }
+
+    #quem-somos .quem-somos-content p{
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--dark-letter-primary);
+    }
+
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
