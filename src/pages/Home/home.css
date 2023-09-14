@@ -104,6 +104,14 @@
     margin-block: 2rem;
 }
 
+#nossos-produtos .detalhes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+}
+
 #line .wrapper{
     padding-block: 0;
 }

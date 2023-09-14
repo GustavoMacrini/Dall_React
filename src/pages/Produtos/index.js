@@ -1,8 +1,20 @@
 import './style-produtos.css';
 import EmbalagemDemo from '../imagens/embalagens/embalagens-demo.svg';
 import Grid from '../../components/Grid';
+import ShortBtn from '../../components/ShortBtn';
+import ContatoBtn from '../../components/ContatoBtn';
 
 function Produtos(){
+
+    function openGrid(product){
+        if(product == 1){
+            document.getElementById('container-embalagens').classList.toggle('grid-container-embalagens-height');
+        }
+        if (product == 2){
+            document.getElementById('container-maquinas').classList.toggle('grid-container-maquinas-height');
+        }
+    }
+    
 
     return(
         <div>
@@ -23,24 +35,34 @@ function Produtos(){
                     </div>
                     <hr/>
                     
-                    <div className='grid-container-maquinas'>
+                    <div className='grid-container-maquinas grid-container-maquinas-height' id='container-maquinas'>
                         <Grid product={2}/> 
                     </div>
 
                 </div>                
             </section>
 
-            <div className='wrapper' id='empacotamento-footer'>
-                <div className='empacotamento-footer'>
-                    <p>
-                        Otimize o processo de empacotamento com nosso sistema eficiente. Embale produtos
-    de forma  rápida e organizada, aumentando a produtividade da sua empresa
-                    </p>
-                    <button>MOSTRAR</button>
-                </div>
-            </div>        
 
-            <section id="empacotamento">
+            <section id='empacotamento-footer'>
+                <div className='wrapper'>
+                    <div className='short-line'>
+                        <hr/>                    
+                    </div>
+                    <div className='empacotamento-footer'>
+                        <p>
+                            Otimize o processo de empacotamento com nosso sistema eficiente. Embale produtos
+        de forma  rápida e organizada, aumentando a produtividade da sua empresa
+                        </p>
+                        <ShortBtn onClick={() => openGrid(2)} name='MOSTRAR +'></ShortBtn>
+                    </div>
+                </div>
+            </section>
+                    
+
+
+
+
+            <section id="embalagem">
                 <div className="wrapper">
 
                     <div className='section-title'>
@@ -49,23 +71,44 @@ function Produtos(){
                     </div>
                     <hr/>
                     
-                    <div className='grid-container-maquinas'>
+                    <div className='grid-container-embalagens grid-container-embalagens-height' id='container-embalagens'>
                         <Grid product={1}/> 
                     </div>
 
                 </div>
 
                 
-            </section>
-            <div className='wrapper' id='empacotamento-footer'>
-                    <div className='empacotamento-footer'>
-                            <p>
+            </section >
+
+            <section id='embalagem-footer'>
+                <div className='wrapper' >
+                    <div className='short-line'>
+                        <hr/>                    
+                    </div>
+                    <div className='embalagem-footer'>
+                        <p>
                             Otimize o processo de empacotamento com nosso sistema eficiente. Embale produtos
-    de forma  rápida e organizada, aumentando a produtividade da sua empresa
-                            </p>
-                            <button>MOSTRAR</button>
-                        </div>
+        de forma  rápida e organizada, aumentando a produtividade da sua empresa
+                        </p>
+                        <ShortBtn onClick={() => openGrid(1)} name='MOSTRAR +'></ShortBtn>
+                    </div>
                 </div>
+            </section>
+
+            
+
+            <section id='contato'>
+                <div className='wrapper'>
+                    <div className='title'>
+                        <h1>O QUE ESTÁ ESPERANDO? FAÇA JÁ O SEU PEDIDO!</h1>
+                    </div>
+                    
+                    <div className='botao'>
+                        <ContatoBtn/>
+                    </div>
+                    
+                </div>
+            </section>
 
 
         </div>

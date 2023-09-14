@@ -3,6 +3,7 @@ import '../template.css';
 import Logo from '../imagens/logos/logo.svg';
 import EmbalagemDemo from '../imagens/embalagens/embalagens-demo.svg';
 import Slider from '../../components/Slider';
+import ShortBtn from '../../components/ShortBtn';
 
 function Home(){
     return(
@@ -77,10 +78,13 @@ function Home(){
                     <div className='slider-maquinas'>
                         <h2 className='product-title'>SISTEMAS DE EMPACOTAMENTO</h2>
                         <Slider product={2}/>
-                        <p>
-                            Otimize o processo de empacotamento com nosso sistema eficiente. <br/>
-                            Embale produtos de forma rápida e organizada, aumentando a produtividade da sua empresa.
-                        </p>
+                        <div className='detalhes'>
+                            <p>
+                                Otimize o processo de empacotamento com nosso sistema eficiente. <br/>
+                                Embale produtos de forma rápida e organizada, aumentando a produtividade da sua empresa.
+                            </p>                
+                            <ShortBtn name='+ DETALHES'/>
+                        </div>
                     </div>
 
                     <hr/>
@@ -88,9 +92,12 @@ function Home(){
                     <div className='slider-embalagens'>
                         <h2 className='product-title'>EMBALAGENS LAMINADAS</h2>
                         <Slider product={1}/>
-                        <p>
-                            Os materiais usados nas embalagem laminadas oferecem uma barreira que protege os itens armazenados contra agressões externas como a luz, calor e umidade.
-                        </p>
+                        <div className='detalhes'>
+                            <p>
+                                Os materiais usados nas embalagem laminadas oferecem uma barreira que protege os itens armazenados contra agressões externas como a luz, calor e umidade.
+                            </p>
+                            <ShortBtn name='+ DETALHES'/>
+                        </div>
                     </div>
                 </div>
             </section>
