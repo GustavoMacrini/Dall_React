@@ -1,4 +1,8 @@
 
+.product-wrapper{
+    background-color: red;
+}
+
 /* ----------------------------- VIDEO INICIAL */
 #video-inicial{
     padding-top: 3.5rem;
@@ -32,17 +36,13 @@
     color: var(--primary-color);
 }
 
-#empacotamento, #embalagem{
-    background-color: #FCFCFC;
-}
-
 #empacotamento .wrapper, #embalagem .wrapper{
     padding-bottom: 0;
 }
 
 #empacotamento hr, #embalagem hr{
     border-radius: 50px;
-    background: #D9D9D9;
+    color: #D9D9D9;
     margin-block: 1.25rem;
 }
 

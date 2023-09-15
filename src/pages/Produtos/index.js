@@ -14,10 +14,9 @@ function Produtos(){
             document.getElementById('container-maquinas').classList.toggle('grid-container-maquinas-height');
         }
     }
-    
 
     return(
-        <div>
+        <div className='product-wrapper'>
             <section id="video-inicial">
                 <div className="wrapper">
                     <div className="video-inicial">
@@ -28,7 +27,6 @@ function Produtos(){
 
             <section id="empacotamento">
                 <div className="wrapper">
-
                     <div className='section-title'>
                         <h1>CONHEÇA OS NOSSOS</h1>
                         <h1 className='section-title-main'>SISTEMAS DE EMPACOTAMENTO</h1>
@@ -38,10 +36,8 @@ function Produtos(){
                     <div className='grid-container-maquinas grid-container-maquinas-height' id='container-maquinas'>
                         <Grid product={2}/> 
                     </div>
-
                 </div>                
             </section>
-
 
             <section id='empacotamento-footer'>
                 <div className='wrapper'>
@@ -57,10 +53,6 @@ function Produtos(){
                     </div>
                 </div>
             </section>
-                    
-
-
-
 
             <section id="embalagem">
                 <div className="wrapper">
@@ -76,8 +68,6 @@ function Produtos(){
                     </div>
 
                 </div>
-
-                
             </section >
 
             <section id='embalagem-footer'>
@@ -95,8 +85,6 @@ function Produtos(){
                 </div>
             </section>
 
-            
-
             <section id='contato'>
                 <div className='wrapper'>
                     <div className='title'>
@@ -109,8 +97,6 @@ function Produtos(){
                     
                 </div>
             </section>
-
-
         </div>
     )
 }

@@ -23,10 +23,10 @@ function Slider(props){
         partialVisibilityGutter: 30 // this is needed to tell the amount of px that should be visible.
       }
       };
-
-    const productData = CardData.filter(item => item.type == props.product).map(item =>(
+      
+    const productData = CardData.filter(item => item.type == props.product && item.id != props.exclude).map(item =>(
       <div className='card-wrapper'>
-        <Card name={item.name} image={item.image} />
+        <Card id={item.id} name={item.name} image={item.image} link={props.link}/>
       </div>
     ))
 

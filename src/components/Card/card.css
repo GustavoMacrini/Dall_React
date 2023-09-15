@@ -1,8 +1,4 @@
-/* .card-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 .card{
     width: 14.875rem;
@@ -41,5 +37,14 @@
     color: #AFB2B1;
     font-size: 12px;
     margin-top: 0.5rem;
+}
+
+.card-link{
+    text-decoration:none;
+}
+
+.card-hover:hover{
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
