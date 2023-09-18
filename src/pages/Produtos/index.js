@@ -3,6 +3,7 @@ import EmbalagemDemo from '../imagens/embalagens/embalagens-demo.svg';
 import Grid from '../../components/Grid';
 import ShortBtn from '../../components/ShortBtn';
 import ContatoBtn from '../../components/ContatoBtn';
+import VideoPlayer from '../../components/VideoPlayer';
 
 function Produtos(){
 
@@ -20,7 +21,7 @@ function Produtos(){
             <section id="video-inicial">
                 <div className="wrapper">
                     <div className="video-inicial">
-                        <img src={EmbalagemDemo} alt=""/>
+                        <VideoPlayer className='player' videoUrl={'https://www.youtube.com/watch?v=WQKzFRAtj10'}/>
                     </div>
                 </div>
             </section>

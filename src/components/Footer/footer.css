@@ -1,0 +1,87 @@
+#links-telas{
+    background-color: var(--primary-color-light-2);    
+}
+
+#links-telas .links-telas-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#links-telas .link-telas-row1{
+    margin-bottom: 1.5rem;
+}
+
+#links-telas a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--light-letter-primary);
+}
+
+/* ************ REDES SOCIAIS*/
+
+#redes .wrapper{
+    padding-block: 0.813rem;
+}
+
+#redes .redes-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#redes .logo img{    
+    width: 3.7rem;
+    height: 1.6rem;
+}
+
+#redes .redes-icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+#redes .redes-icones svg{
+    cursor: pointer;
+}
+
+
+/* COPYRIGHT */
+#copyright .copyright-dall{
+    background-color: var(--primary-color-light-2);
+    color: var(--light-letter-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright .copyright-dall p{
+    font-size: 10px;
+    font-weight: 400;
+    margin-block: 0.5rem;
+}
+
+.whatsapp-link{
+    position: fixed;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #24d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+}
+
+.fa-whatsapp{
+    margin-top: 16px;
+}

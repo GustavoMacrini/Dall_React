@@ -18,15 +18,25 @@ function ProdutosDetalhe (){
                     </div>
 
                     <div className='product'>
-                        <img src={produto.image}/>
+                        <div>
+                            <div className='imagem'>
+                                <img src={produto.image} alt={produto.name}/>
+                            </div>
+                        </div>
                         <div className='product-content'>
                             <div className='product-content-description'>
                                 <div className='line'>
                                     <hr/>
                                 </div>
-                                <p>
-                                    Form, FIll and Seal: Recebe Filmes, Forma a Embalagem, Envasa e Sela.
-                                </p>
+
+                                <div className='product-text'>
+                                    <p>
+                                        {produto.text}
+                                    </p>
+                                    <ul>
+                                        {produto.textList.map(item => <li>{item}</li>)}
+                                    </ul>
+                                </div>
                             </div>
 
                             <ContatoBtn/>
