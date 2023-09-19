@@ -1,12 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from './icons/logo.svg';
-import Menu from './icons/menu.svg';
-import CloseMenu from './icons/close-menu.svg';
+import Logo from '../icons/logo.svg';
+import Menu from '../icons/menu.svg';
+import CloseMenu from '../icons/close-menu.svg';
 import { Link } from 'react-router-dom';
 import './header.css'
-import React, {useState, useEffect, } from 'react';
+import React, { useState } from 'react';
 
 
 

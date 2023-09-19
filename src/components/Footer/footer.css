@@ -48,6 +48,12 @@
 
 #redes .redes-icones svg{
     cursor: pointer;
+    border-radius: 5px;
+}
+
+#redes .redes-icones svg:hover{
+    background-color: var(--secondary-color);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
