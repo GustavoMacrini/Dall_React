@@ -14,10 +14,12 @@ function Header() {
   const [menu, setMenu] = useState(true);
 
   return (
-    <Navbar expand="lg" className="navbar bg-body-tertiary ">
+    <Navbar expand="lg" className="navbar bg-body-tertiary">
       <Container className=''>
         <Navbar.Brand href="#home">
-          <img src={Logo}/>
+          <Link to='/'>
+            <img src={Logo}/>
+          </Link>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setMenu(!menu)}> 
