@@ -11,6 +11,10 @@ import './header.css';
 function Header() {
   const [menu, setMenu] = useState(true);
 
+  const handleLinkClick = () => {
+    window.scrollTo(0, 0);
+  };
+  
   return (
     <div className='navbar-wrapper'>
       <Navbar expand="lg" className="bg-body-tertiary navbar">
@@ -27,11 +31,11 @@ function Header() {
           
           <Navbar.Collapse className="justify-content-end">
             <Nav className="navbar-items" id='teste'>
-              <Nav.Link as={Link} to='/'>INÍCIO</Nav.Link>
-              <Nav.Link as={Link} to='/produtos'>NOSSOS PRODUTOS</Nav.Link>
-              <Nav.Link as={Link} to='/sobre'>SOBRE NÓS</Nav.Link>
-              <Nav.Link as={Link} to='/contato'>CONTATO</Nav.Link>
-              <Nav.Link as={Link} to='/politica'>POLÍTICAS DE PRIVACIDADE</Nav.Link>
+              <Nav.Link as={Link} to='/' onClick={handleLinkClick}>INÍCIO</Nav.Link>
+              <Nav.Link as={Link} to='/produtos' onClick={handleLinkClick}>NOSSOS PRODUTOS</Nav.Link>
+              <Nav.Link as={Link} to='/sobre' onClick={handleLinkClick}>SOBRE NÓS</Nav.Link>
+              <Nav.Link as={Link} to='/contato' onClick={handleLinkClick}>CONTATO</Nav.Link>
+              <Nav.Link as={Link} to='/politica' onClick={handleLinkClick}>POLÍTICAS DE PRIVACIDADE</Nav.Link>
             </Nav>
           </Navbar.Collapse>
 

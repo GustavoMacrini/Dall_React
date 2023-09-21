@@ -6,6 +6,11 @@ import Slider from '../../components/Slider';
 import ShortBtn from '../../components/ShortBtn';
 
 function Home(){
+
+    const handleLinkClick = () => {
+        window.scrollTo(0, 0);
+      };
+
     return(
         <div className='home-wrapper'>
             <section id="slider-inicial">
@@ -83,7 +88,7 @@ function Home(){
                                 Otimize o processo de empacotamento com nosso sistema eficiente. <br/>
                                 Embale produtos de forma rápida e organizada, aumentando a produtividade da sua empresa.
                             </p>                
-                            <ShortBtn name='+ DETALHES' to='/produtos'/>
+                            <ShortBtn name='+ DETALHES' to='/produtos' onClick={handleLinkClick}/>
                         </div>
                     </div>
 
@@ -96,7 +101,7 @@ function Home(){
                             <p>
                                 Os materiais usados nas embalagem laminadas oferecem uma barreira que protege os itens armazenados contra agressões externas como a luz, calor e umidade.
                             </p>
-                            <ShortBtn name='+ DETALHES' to='/produtos'/>
+                            <ShortBtn name='+ DETALHES' to='/produtos' onClick={handleLinkClick} />
                         </div>
                     </div>
                 </div>
@@ -126,7 +131,7 @@ function Home(){
                     </div>
                     
                     <div class="detalhes">
-                        <ShortBtn name='+ DETALHES' to='/sobre'/>
+                        <ShortBtn name='+ DETALHES' to='/sobre' onClick={handleLinkClick} />
                     </div>
                 </div>
             </section>
