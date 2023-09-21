@@ -7,7 +7,7 @@ import ShortBtn from '../../components/ShortBtn';
 
 function Home(){
     return(
-        <div>
+        <div className='home-wrapper'>
             <section id="slider-inicial">
                 <div className="wrapper">
                     <div id="carouselExample" className="carousel slide" data-ride="carousel" >
@@ -83,7 +83,7 @@ function Home(){
                                 Otimize o processo de empacotamento com nosso sistema eficiente. <br/>
                                 Embale produtos de forma rápida e organizada, aumentando a produtividade da sua empresa.
                             </p>                
-                            <ShortBtn name='+ DETALHES'/>
+                            <ShortBtn name='+ DETALHES' to='/produtos'/>
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@ function Home(){
                             <p>
                                 Os materiais usados nas embalagem laminadas oferecem uma barreira que protege os itens armazenados contra agressões externas como a luz, calor e umidade.
                             </p>
-                            <ShortBtn name='+ DETALHES'/>
+                            <ShortBtn name='+ DETALHES' to='/produtos'/>
                         </div>
                     </div>
                 </div>
@@ -125,10 +125,8 @@ function Home(){
                         </p>  
                     </div>
                     
-                    <div class="btn-detalhes">
-                        <a href="">
-                            + DETALHES
-                        </a>
+                    <div class="detalhes">
+                        <ShortBtn name='+ DETALHES' to='/sobre'/>
                     </div>
                 </div>
             </section>

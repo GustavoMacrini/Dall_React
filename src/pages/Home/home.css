@@ -1,9 +1,10 @@
-.btn-detalhes{
-    margin-top: 2rem;
+.home-wrapper, .slider-maquinas, #quem-somos{
+    background-color: #F8F8F8;
 }
 
 /* ----------------------------- SLIDER INICIAL */
 #slider-inicial{
+    padding-top: 3.6rem;
     background-color: var(--secondary-color);
 }
 
@@ -65,19 +66,16 @@
 /* ----------------------------- SLIDER PRODUTOS */
 
 #nossos-produtos{
-    /* background-color: var(--secondary-color); */
-    margin-bottom: 50px;
+    margin-bottom: 1rem;
 }
 
 #nossos-produtos .wrapper{
-    background-color: white;
-    padding-top: 4rem;
     border-bottom-left-radius: 10px;    
 }
 
-#nossos-produtos .section-title{
-    font-size: 40px;
-    font-weight: 600;
+#nossos-produtos .section-title h1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #nossos-produtos .section-title-main{
@@ -86,14 +84,14 @@
 
 #nossos-produtos .product-title{
     color: rgba(0, 0, 0, 0.75);
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 #nossos-produtos p{
     color: rgba(0, 0, 0, 0.75);
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 1.5rem;
 }
@@ -101,15 +99,15 @@
 #nossos-produtos hr{
     border-radius: 50px;
     background: #D9D9D9;
-    margin-block: 2rem;
+    margin-block: 1rem;
 }
 
 #nossos-produtos .detalhes{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 8rem;
+    gap: 2rem;
 }
 
 #line .wrapper{
@@ -125,14 +123,11 @@
 /* ----------------------------- QUEM SOMOS */
 
 #quem-somos{
-    background-color: var(--secondary-color);
     color: #1E1E1E;
 }
 
 #quem-somos .wrapper{
-    padding-top: 4rem;
     padding-bottom: 1.75rem;
-    background-color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -159,13 +154,15 @@
     height: 5rem;
 }
 
+#quem-somos .detalhes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
 /* --------------------- RESPONSIVO */
 
 @media (min-width: 992px){
-    .btn-detalhes a{
-        padding-inline: 4.25rem;
-        margin-right: 4rem;
-    }
 
     #nossa-historia .info-empresa-titulo h2{
         font-size: 40px;
@@ -191,42 +188,47 @@
     }
 
     /* --------------------- PRODUTOS */
-    #produtos{
-        background-image: none;
-        background-color: var(--secondary-color);
+    #nossos-produtos{
+        margin-bottom: 3.125rem;
     }
 
-    #produtos .wrapper{
-        box-shadow: none;
-        padding-bottom: 5rem;
+    #nossos-produtos .wrapper{
+        padding-top: 4rem; 
     }
-
-    #produtos .produtos-title h1{
-        font-size: 40px;
-        font-weight: 700;
-        margin-bottom: 3rem;
-        color: var(--dark-letter-primary);
-    }
-
-    #produtos .produtos-subtitle h2{
+    
+    #nossos-produtos .section-title h1{
         font-size: 32px;
-        font-weight: 700;
-        color: var(--dark-letter-secondary);
+        font-weight: 600;
     }
 
-    #produtos .produtos-text{
-        font-size: 24px;    
-        font-weight: 400;
-        color: var(--dark-letter-secondary);                
+    #nossos-produtos .product-title{
+        justify-content: start;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+
+    #nossos-produtos p{
+        font-size: 24px;
+    }
+    
+    #nossos-produtos .detalhes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8rem;
+    }
+    
+    #nossos-produtos hr{
+        border-radius: 50px;
+        background: #D9D9D9;
+        margin-block: 2rem;
     }
 
     /* --------------------- QUEM SOMOS */
-    #quem-somos{
-        background-color: #fff;
-    }
-
     #quem-somos .wrapper{
-        background-color: transparent;
+        padding-top: 4rem;
     }
 
     #quem-somos .quem-somos-title h1{
@@ -246,6 +248,11 @@
         font-weight: 500;
         color: var(--dark-letter-primary);
     }
+
+    #quem-somos .detalhes{
+        justify-content: start;
+    }
+    
 
 }
 

@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
 import './shortBtn.css';
 
 function ShortBtn(props){ 
     return(        
         <div>            
-            <div className='short-btn' onClick={props.onClick}>
+            <Link to={props.to} className='short-btn' onClick={props.onClick}>
                 <a>{props.name}</a>
-            </div>
+            </Link>
         </div>
     )
 }

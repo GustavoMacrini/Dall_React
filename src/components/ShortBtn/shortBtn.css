@@ -1,3 +1,8 @@
+.short-btn a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .short-btn{
     display: flex;
     flex-direction: row;
@@ -11,11 +16,7 @@
     border-radius: 48px;
     color: var(--primary-color);
     transition: all 0.3s;
-}
-
-.short-btn a{
-    font-size: 16px;
-    font-weight: 400;
+    text-decoration: none;
 }
 
 .short-btn:hover{
