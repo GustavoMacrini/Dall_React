@@ -14,7 +14,7 @@ function ProdutosDetalhe (){
             <section id='product-info'>
                 <div className='wrapper'>
                     <div className='title'>
-                        <h1>{produto.name}</h1>
+                        <h1>{produto.name}</h1>                        
                     </div>
 
                     <div className='product'>
@@ -39,13 +39,18 @@ function ProdutosDetalhe (){
                                 </div>
                             </div>
 
-                            <ContatoBtn/>
+                            <ContatoBtn/>                    
                         </div>
                     </div>
                 </div>
             </section>
             <section id='sugestao'>
-                <div className='wrapper'> 
+                <div className='wrapper'>
+                    
+                    <div className='line'>
+                        <hr/>
+                    </div> 
+
                     <div className='title'>
                         <h2>SUGESTÕES</h2>
                         <div className='title-main'>
@@ -65,7 +70,8 @@ function ProdutosDetalhe (){
             <section id='contato'>
                 <div className='wrapper'>
                     <div className='title'>
-                        <h1>O QUE ESTÁ ESPERANDO? FAÇA JÁ O SEU PEDIDO!</h1>
+                        <h1>O QUE ESTÁ ESPERANDO?</h1>
+                        <h1>FAÇA JÁ O SEU PEDIDO!</h1>
                     </div>
                     
                     <div className='botao'>
