@@ -50,7 +50,9 @@ function Produtos(){
                             Otimize o processo de empacotamento com nosso sistema eficiente. Embale produtos
         de forma  rápida e organizada, aumentando a produtividade da sua empresa
                         </p>
-                        <ShortBtn onClick={() => openGrid(2)} name='MOSTRAR +'></ShortBtn>
+                        <div className='short-btn'>
+                            <ShortBtn onClick={() => openGrid(2)} name='MOSTRAR +'></ShortBtn>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -81,7 +83,9 @@ function Produtos(){
                             Otimize o processo de empacotamento com nosso sistema eficiente. Embale produtos
         de forma  rápida e organizada, aumentando a produtividade da sua empresa
                         </p>
-                        <ShortBtn onClick={() => openGrid(1)} name='MOSTRAR +'></ShortBtn>
+                        <div className='short-btn'>
+                            <ShortBtn onClick={() => openGrid(1)} name='MOSTRAR +'></ShortBtn>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -89,7 +93,8 @@ function Produtos(){
             <section id='contato'>
                 <div className='wrapper'>
                     <div className='title'>
-                        <h1>O QUE ESTÁ ESPERANDO? FAÇA JÁ O SEU PEDIDO!</h1>
+                        <h1>O QUE ESTÁ ESPERANDO?</h1>
+                        <h1>FAÇA JÁ O SEU PEDIDO!</h1>
                     </div>
                     
                     <div className='botao'>

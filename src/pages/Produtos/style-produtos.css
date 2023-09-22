@@ -2,6 +2,7 @@
 #video-inicial{
     background-color: white;
     padding-bottom: 0.5rem;
+    padding-top: 3.6rem;
 }
 
 #video-inicial .wrapper{
@@ -27,10 +28,9 @@
 
 
 /* ----------------------------- GRID PRODUTOS */
-.section-title{
-    color: #000;
-    font-size: 40px;
-    font-weight: 600;
+.section-title h1{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section-title-main{
@@ -65,8 +65,9 @@
 
 #empacotamento-footer .empacotamento-footer, #embalagem-footer .embalagem-footer{
     display: flex;
-    flex-direction: row;
-    gap: 12rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 #empacotamento-footer .short-line, #embalagem-footer .short-line{
@@ -91,21 +92,17 @@
     background-color: var(--primary-color-light-3);
 }
 
-#contato .wrapper{
-    padding-bottom: 2.5rem;
-}
-
 #contato .title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #contato .title h1{
     color: #FBF5F1;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #contato .botao{
@@ -119,14 +116,35 @@
 /* ----------------------------- RESPONSIVO */
 @media (min-width: 992px){
 
-    /* VIDEO INICIAL */
-    
-    #video-inicial .wrapper{
-        filter: none;
+    /* ----------------------------- GRID PRODUTOS */
+    .section-title h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #empacotamento-footer .wrapper, #embalagem-footer .wrapper{
+        padding-bottom: 2.5rem;
+    }
+
+    #empacotamento-footer .empacotamento-footer, #embalagem-footer .embalagem-footer{
+        flex-direction: row;
+        gap: 12rem;
+    }
+
+    /* ----------------------------- CONTATO */
+
+    #contato .title{
+        flex-direction: row;
+        gap: 1rem;
     }
     
-    #video-inicial .video-inicial img{
-        height: 487px;
+    #contato .title h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #contato .wrapper{
+        padding-block: 2.5rem;
     }
 
 
