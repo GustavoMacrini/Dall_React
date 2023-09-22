@@ -8,6 +8,7 @@ import Contato from './pages/Contato';
 import Politica from './pages/Politica';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Erro from './pages/Erro';
 
 function RoutesApp(){
     return(    
@@ -20,7 +21,7 @@ function RoutesApp(){
                 <Route path='/sobre' element={<Sobre/>}/>
                 <Route path='/contato' element={<Contato/>}/>
                 <Route path='/politica' element={<Politica/>}/>
-                {/* <Route path='*' element={<Erro/>}/> */}
+                <Route path='*' element={<Erro/>}/>
             </Routes>
             <Footer/>
         </HashRouter>

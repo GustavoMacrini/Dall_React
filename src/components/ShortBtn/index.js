@@ -3,9 +3,9 @@ import './shortBtn.css';
 
 function ShortBtn(props){ 
     return(        
-        <div>            
-            <Link to={props.to} className='short-btn' onClick={props.onClick}>
-                <a>{props.name}</a>
+        <div className='short-btn-wrapper'>            
+            <Link to={props.to} className={props.darkmode? 'short-btn-dark' : 'short-btn-light'} onClick={props.onClick}>
+                {props.name}
             </Link>
         </div>
     )
