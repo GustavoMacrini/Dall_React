@@ -75,7 +75,7 @@ function ProdutosDetalhe (){
                     </div>
                     
                     <div className='botao'>
-                        <ContatoBtn/>
+                        {/* <ContatoBtn/> */}
                     </div>
                     
                 </div>
