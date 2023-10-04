@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dall_React/static/css/main.bd9e4db2.css",
-    "main.js": "/Dall_React/static/js/main.83439669.js",
+    "main.css": "/Dall_React/static/css/main.2c8cc861.css",
+    "main.js": "/Dall_React/static/js/main.0f274b08.js",
     "static/media/Encaixotamento.svg": "/Dall_React/static/media/Encaixotamento.420cbdaecb3284f37740da708fdcc194.svg",
     "static/media/Fs-Pouch.svg": "/Dall_React/static/media/Fs-Pouch.2472a475f9a1b825017c1a407a11de23.svg",
     "static/media/Dosadores.svg": "/Dall_React/static/media/Dosadores.8537220962e9da4c883e41b04993cfee.svg",
@@ -26,12 +26,11 @@
     "index.html": "/Dall_React/index.html",
     "static/media/menu.svg": "/Dall_React/static/media/menu.01a57a6e2a9336d1b4e342169baa7f33.svg",
     "static/media/close-menu.svg": "/Dall_React/static/media/close-menu.76eba169c04d837050bc6cc1e69514cd.svg",
-    "static/media/right-arrow.svg": "/Dall_React/static/media/right-arrow.6e99efc28bac863f4d8403fa07240382.svg",
-    "main.bd9e4db2.css.map": "/Dall_React/static/css/main.bd9e4db2.css.map",
-    "main.83439669.js.map": "/Dall_React/static/js/main.83439669.js.map"
+    "main.2c8cc861.css.map": "/Dall_React/static/css/main.2c8cc861.css.map",
+    "main.0f274b08.js.map": "/Dall_React/static/js/main.0f274b08.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd9e4db2.css",
-    "static/js/main.83439669.js"
+    "static/css/main.2c8cc861.css",
+    "static/js/main.0f274b08.js"
   ]
 }
