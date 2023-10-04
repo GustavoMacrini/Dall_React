@@ -1,7 +1,7 @@
 import './produtosDetalhe.css';
 import { useParams } from 'react-router-dom';
 import CardData from '../../components/Slider/cardData';
-import ContatoBtn from '../../components/ContatoBtn';
+import LargeBtn from '../../components/LargeBtn';
 import Slider from '../../components/Slider';
 
 function ProdutosDetalhe (){
@@ -39,7 +39,9 @@ function ProdutosDetalhe (){
                                 </div>
                             </div>
 
-                            <ContatoBtn/>                    
+                            <div className='contato-botao'> 
+                                <LargeBtn title='CONTATE-NOS'/>
+                            </div>                 
                         </div>
                     </div>
                 </div>
@@ -75,7 +77,7 @@ function ProdutosDetalhe (){
                     </div>
                     
                     <div className='botao'>
-                        {/* <ContatoBtn/> */}
+                        <LargeBtn title='CONTATE-NOS'/>
                     </div>
                     
                 </div>

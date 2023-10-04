@@ -1,8 +1,7 @@
-import './style-produtos.css';
-import EmbalagemDemo from '../imagens/embalagens/embalagens-demo.svg';
+import './produtos.css';
 import Grid from '../../components/Grid';
 import ShortBtn from '../../components/ShortBtn';
-import ContatoBtn from '../../components/ContatoBtn';
+import LargeBtn from '../../components/LargeBtn';
 import VideoPlayer from '../../components/VideoPlayer';
 
 function Produtos(){
@@ -98,7 +97,7 @@ function Produtos(){
                     </div>
                     
                     <div className='botao'>
-                        <ContatoBtn/>
+                        <LargeBtn title='CONTATE-NOS'/>
                     </div>
                     
                 </div>

@@ -1,0 +1,114 @@
+.contato-wrapper{
+    background-color: #FFF;
+}
+
+#form-section{
+    padding-top: 3.6rem;
+}
+
+#form-section .title h1{
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 1rem;
+    
+}
+
+#form-section .contato-campo{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+#form-section label{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 0.75rem;
+}
+
+#form-section input{
+    height: 2.5rem;
+}
+
+#form-section input, #form-section textarea{
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;    
+    padding-left: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+#form-section textarea{
+    padding-top: 0.75rem;
+}
+
+#form-section ::placeholder{
+    color: #5F5F5F;
+    opacity: 0.45;
+}
+
+#form-section .btn-message{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* *********** VIDEO */
+#video{
+    background-color: var(--primary-color-light-3);
+}
+
+#video .title h1{
+    color: white;
+    font-size: 24px;
+}
+
+#video .video-player{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px){
+    #form-section .wrapper{
+        padding-top: 5rem;
+    }
+
+    #form-section .title h1{
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+
+    #form-section .contato-header{
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #form-section label{
+        font-size: 16px;
+    }
+
+    #form-section input{
+        margin-bottom: 0;
+    }
+
+    #form-section .btn-message{
+        justify-content: end;
+    }
+
+    /* *********** VIDEO */
+
+    #video .wrapper{
+        padding-block: 5rem;
+    }
+    
+    #video .title{
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    #video .title h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+}

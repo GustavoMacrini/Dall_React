@@ -1,4 +1,4 @@
-.contato-btn{
+.large-btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,14 +15,17 @@
     transition: all 0.3s;
 }
 
-.contato-btn:hover{
+.large-btn:hover{
     background-color: var(--primary-color-light-2);
     cursor: pointer;
 }
 
+button{
+    
+}
 
 @media (min-width: 992px){
-    .contato-btn{
+    .large-btn{
         gap: 3.75rem;
         width: 376px;
     }
