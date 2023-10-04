@@ -1,9 +1,10 @@
 import './home.css';
 import '../template.css';
 import Logo from '../imagens/logos/logo.svg';
-import EmbalagemDemo from '../imagens/embalagens/embalagens-demo.svg';
 import Slider from '../../components/Slider';
 import ShortBtn from '../../components/ShortBtn';
+import Historia from '../../components/Historia';
+import SliderInicial from '../../components/SliderInicial';
 
 function Home(){
 
@@ -13,61 +14,11 @@ function Home(){
 
     return(
         <div className='home-wrapper'>
-            <section id="slider-inicial">
-                <div className="wrapper">
-                    <div id="carouselExample" className="carousel slide" data-ride="carousel" >
 
-                        <div className="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
-                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-
-                        <div className="carousel-inner">
-                            <div className="carousel-item active" data-interval="2000">
-                                <img src= {EmbalagemDemo} className="d-block w-100" alt="..."/>                        
-                            </div>
-                            <div className="carousel-item" data-interval="2000">
-                                <img src="./imagens/embalagens/embalagens-demo.svg" className="d-block w-100" alt="..."/>                        
-                            </div>
-                            <div className="carousel-item ">
-                                <img src="./imagens/embalagens/embalagens-demo.svg" className="d-block w-100" alt="..."/>
-                            </div>
-                        </div>
-                
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-
-                    </div>
-
-                </div>
-            </section>      
+            <SliderInicial/>
             
             {/* -- NOSSA HISTORIA -- */}
-            <section id="nossa-historia">
-                <div className="wrapper">
-
-                    <div class="info-empresa-titulo">
-                        <h1>
-                            NOSSA HISTÓRIA
-                        </h1>
-                    </div>
-
-                    <div class="info-empresa" >
-                        <h1>+ DE 10 ANOS NO MERCADO</h1>
-                        <h1>+ DE 100 CLIENTES</h1>
-                        <h1>+ DE 20 PRODUTOS</h1>
-                    </div>
-                    
-                </div>
-            </section>
+            <Historia/>
 
             {/* -- NOSSOS PRODUTOS -- */}
             <section id="nossos-produtos">

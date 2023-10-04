@@ -1,66 +1,9 @@
+.home-wrapper{
+    padding-top: 3.6rem;
+}
+
 .home-wrapper, .slider-maquinas, #quem-somos{
     background-color: #F8F8F8;
-}
-
-/* ----------------------------- SLIDER INICIAL */
-#slider-inicial{
-    padding-top: 3.6rem;
-    background-color: var(--secondary-color);
-}
-
-#slider-inicial .wrapper{
-    padding-top: 0;
-    padding-inline: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: white;
-    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25));
-}
-
-#slider-inicial .carousel-indicators button{
-    background-color: var(--dark-letter-secondary);
-}
-#slider-inicial .carousel-indicators .active{
-    background-color: var(--dark-letter-primary);
-}
-
-/* ----------------------------- NOSSA HISTORIA */
-#nossa-historia{
-    margin-top: 0.5rem;
-    background: linear-gradient(90deg, #AB2F38 30.99%, #C66D73 99.44%);
-    color: white;    
-}
-
-#nossa-historia .wrapper{
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-#nossa-historia .info-empresa-titulo h1{
-    font-size: 16px;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-}
-
-#nossa-historia .info-empresa{
-    gap: 1.5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-#nossa-historia .info-empresa h1{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-#nossa-historia .info-empresa h2{
-    font-size: 14px;
-    font-weight: 400;
-}
-
-#nossa-historia .info-empresa p{
-    font-size: 12px;
-    font-weight: 300;
 }
 
 /* ----------------------------- SLIDER PRODUTOS */
@@ -164,34 +107,9 @@
 
 @media (min-width: 992px){
 
-    #nossa-historia .info-empresa-titulo h1{
-        font-size: 40px;
-        font-weight: 600;
-        margin-bottom: 2.5rem;
-    }
-
-    #nossa-historia .info-empresa{
-        flex-direction: row;
-        justify-content: center;
-        gap: 7.3rem;
-    }
-
-    #nossa-historia .info-empresa h1{
-        font-size: 24px;
-        font-weight: 600;
-    }
-    
-    #nossa-historia .info-empresa h2{
-        font-size: 16px;
-    }
-    
-    #nossa-historia .info-empresa p{
-        font-size: 16px;        
-    }
-
     /* --------------------- PRODUTOS */
     #nossos-produtos{
-        margin-bottom: 3.125rem;
+        margin-bottom: 3.125rem;;
     }
 
     #nossos-produtos .wrapper{

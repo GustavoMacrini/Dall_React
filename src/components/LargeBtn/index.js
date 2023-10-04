@@ -1,13 +1,14 @@
 import './largeBtn.css';
 import {AiOutlineRight} from 'react-icons/ai';
+import {HiOutlineDocumentArrowDown} from 'react-icons/hi2';
 
 function LargeBtn(props){
     return(
         <div>
-            <button type='submit' className='large-btn'>
+            <button type='submit' className='large-btn' onClick={props.onClick}>
                 <div></div>                
                 {props.title}
-                <AiOutlineRight className='arrow-icon'/>
+                {props.download? <HiOutlineDocumentArrowDown className='download-file'/> : <AiOutlineRight/>}
             </button>
         </div>
     )
