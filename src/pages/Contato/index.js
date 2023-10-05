@@ -6,13 +6,12 @@ import VideoPlayer from '../../components/VideoPlayer';
 function Contato(){
 
     const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
 
     function sendEmail(e){
         e.preventDefault();
 
-        if(name === '' || email === '' || message === ''){
+        if(name === '' || message === ''){
             alert("Preencha todos os campos");
             return;
         }
@@ -29,26 +28,14 @@ function Contato(){
                     </div>
 
                     <form className='form' onSubmit={sendEmail}>
-                        <div class="contato-header">
-                            <div class="contato-campo">
-                                <label>NOME</label>
-                                <input 
-                                    type="text" 
-                                    placeholder="INSIRA O SEU NOME"
-                                    onChange={(e) => setName(e.target.value)}
-                                    value={name}
-                                />
-                            </div>
-            
-                            <div class="contato-campo">
-                                <label>EMAIL</label>
-                                <input 
-                                    type="text" 
-                                    placeholder="INSIRA O SEU EMAIL"
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    value={email}
-                                />
-                            </div>
+                        <div class="contato-campo nome-campo">
+                            <label>NOME</label>
+                            <input 
+                                type="text" 
+                                placeholder="INSIRA O SEU NOME"
+                                onChange={(e) => setName(e.target.value)}
+                                value={name}
+                            />
                         </div>
 
                         <div class="contato-campo">
