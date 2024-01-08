@@ -1,6 +1,6 @@
 # Projeto DALL
 
-## Descrição do Projeto
+## Descrição
 <p>Projeto desenvolvido como proposta de novo site para a atual DALL, uma fábrica de embalagens.</p>
 
 
