@@ -30,12 +30,13 @@ function Header() {
           </Navbar.Toggle>
           
           <Navbar.Collapse className="justify-content-end">
-            <Nav className="navbar-items" id='teste'>
+            <Nav className="navbar-items">
               <Nav.Link as={Link} to='/' onClick={handleLinkClick}>INÍCIO</Nav.Link>
               <Nav.Link as={Link} to='/produtos' onClick={handleLinkClick}>NOSSOS PRODUTOS</Nav.Link>
               <Nav.Link as={Link} to='/sobre' onClick={handleLinkClick}>SOBRE NÓS</Nav.Link>
               <Nav.Link as={Link} to='/contato' onClick={handleLinkClick}>CONTATO</Nav.Link>
               <Nav.Link as={Link} to='/politica' onClick={handleLinkClick}>POLÍTICAS DE PRIVACIDADE</Nav.Link>
+              <Nav.Link target='blank' href='https://github.com/GustavoMacrini/Dall_React' className='repositorio'>REPOSITÓRIO</Nav.Link>
             </Nav>
           </Navbar.Collapse>
 
