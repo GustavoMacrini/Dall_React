@@ -9,10 +9,3 @@
     padding-top: 0;
     padding-inline: 0;
 }
-
-#slider-inicial .carousel-indicators button{
-    background-color: var(--dark-letter-secondary);
-}
-#slider-inicial .carousel-indicators .active{
-    background-color: var(--dark-letter-primary);
-}
