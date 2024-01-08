@@ -6,7 +6,9 @@ function Funcionario (props){
     return(
         <div>
            <div className='container-func'>
-                <img src={props.imagem} alt={props.nome}/>
+                <div className='image-func'>
+                    {props.imagem}
+                </div>
                 <div className='info'>
                     <h3>{props.nome}</h3>
                     <span>{props.cargo}</span>

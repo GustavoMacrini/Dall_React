@@ -1,25 +1,23 @@
-import Imagem1 from '../imagens/embalagens/Almofada.svg';
-import Imagem2 from '../imagens/embalagens/Almofada.svg';
-import Imagem3 from '../imagens/embalagens/Almofada.svg';
-
+import { IoPersonCircleOutline } from "react-icons/io5";
+const imagePlanceHolder = <IoPersonCircleOutline style={{fontSize: '120px'}}/>;
 
 const funcionarios = [
     {
         'id': 1,
-        'imagem': Imagem1,
-        'nome': 'Nome1',
+        'imagem': imagePlanceHolder,
+        'nome': 'Funcionário',
         'cargo': 'Cargo'
     },
     {
         'id': 2,
-        'imagem': Imagem2,
-        'nome': 'Nome2',
+        'imagem': imagePlanceHolder,
+        'nome': 'Funcionário',
         'cargo': 'Cargo'
     },
     {
         'id': 3,
-        'imagem': Imagem3,
-        'nome': 'Nome3',
+        'imagem': imagePlanceHolder,
+        'nome': 'Funcionário',
         'cargo': 'Cargo'
     }
 ]

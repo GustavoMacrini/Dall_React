@@ -3,9 +3,10 @@
     flex-direction: column;
 }
 
-.container-func img{
-    width: 90px;
-    height: 90px;
+.image-func{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-func h3{
