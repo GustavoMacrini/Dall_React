@@ -47,7 +47,9 @@ function Footer (){
                     <div className="redes-content">
                         
                         <div className="logo">
-                            <img src={Logo} alt="logo-empresa"/>
+                            <a href="">
+                                <img src={Logo} alt="logo-empresa"/>
+                            </a>
                         </div>
                 
                         <div className="redes-icones">
